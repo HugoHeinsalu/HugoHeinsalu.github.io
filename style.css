@@ -1,17 +1,18 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #082f49;
+    background-color: #0a0a0a;
     margin: 0;
     padding: 0;
+    color: white; /* Set all text color to white */
 }
 
 h1 {
-    color: #333;
+    color: white; /* Override h1 text color */
     text-align: center;
 }
 
 p {
-    color: #666;
+    color: white; /* Override paragraph text color */
     text-align: center;
 }
 
@@ -70,3 +71,10 @@ a:hover {
 ::-webkit-scrollbar-track {
     background-color: #f0f0f0;
 }
+
+/* Center the video location */
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
